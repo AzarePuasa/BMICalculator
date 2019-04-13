@@ -12,6 +12,11 @@
 		EBAE98492261726E00F2C518 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBAE98472261726E00F2C518 /* Main.storyboard */; };
 		EBAE984B2261727000F2C518 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBAE984A2261727000F2C518 /* Assets.xcassets */; };
 		EBAE984E2261727000F2C518 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBAE984C2261727000F2C518 /* LaunchScreen.storyboard */; };
+		EBAE98562261912600F2C518 /* BMICalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAE98552261912600F2C518 /* BMICalculator.swift */; };
+		EBAE98582261916600F2C518 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAE98572261916600F2C518 /* Calculator.swift */; };
+		EBAE985A2261919E00F2C518 /* MetricCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAE98592261919E00F2C518 /* MetricCalculator.swift */; };
+		EBAE985C226191C700F2C518 /* ImperialCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAE985B226191C700F2C518 /* ImperialCalculator.swift */; };
+		EBAE985E2261B29600F2C518 /* BMIClassificationEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAE985D2261B29600F2C518 /* BMIClassificationEnum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		EBAE984A2261727000F2C518 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBAE984D2261727000F2C518 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBAE984F2261727000F2C518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBAE98552261912600F2C518 /* BMICalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMICalculator.swift; sourceTree = "<group>"; };
+		EBAE98572261916600F2C518 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		EBAE98592261919E00F2C518 /* MetricCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricCalculator.swift; sourceTree = "<group>"; };
+		EBAE985B226191C700F2C518 /* ImperialCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImperialCalculator.swift; sourceTree = "<group>"; };
+		EBAE985D2261B29600F2C518 /* BMIClassificationEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIClassificationEnum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				EBAE984A2261727000F2C518 /* Assets.xcassets */,
 				EBAE984C2261727000F2C518 /* LaunchScreen.storyboard */,
 				EBAE984F2261727000F2C518 /* Info.plist */,
+				EBAE98552261912600F2C518 /* BMICalculator.swift */,
+				EBAE98572261916600F2C518 /* Calculator.swift */,
+				EBAE98592261919E00F2C518 /* MetricCalculator.swift */,
+				EBAE985B226191C700F2C518 /* ImperialCalculator.swift */,
+				EBAE985D2261B29600F2C518 /* BMIClassificationEnum.swift */,
 			);
 			path = MySampleApp01;
 			sourceTree = "<group>";
@@ -135,7 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBAE985C226191C700F2C518 /* ImperialCalculator.swift in Sources */,
+				EBAE985E2261B29600F2C518 /* BMIClassificationEnum.swift in Sources */,
 				EBAE98462261726E00F2C518 /* ViewController.swift in Sources */,
+				EBAE98582261916600F2C518 /* Calculator.swift in Sources */,
+				EBAE98562261912600F2C518 /* BMICalculator.swift in Sources */,
+				EBAE985A2261919E00F2C518 /* MetricCalculator.swift in Sources */,
 				EBAE98442261726E00F2C518 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
